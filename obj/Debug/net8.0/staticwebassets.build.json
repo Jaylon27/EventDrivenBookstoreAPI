@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wpf8r8josw5zpjC1efyV2BI9gErEgfa0b1rjMm5yqho=",
+  "Source": "EventDrivenBookstoreAPI",
+  "BasePath": "_content/EventDrivenBookstoreAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

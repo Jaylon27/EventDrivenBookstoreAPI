@@ -1,0 +1,6 @@
+@EventDrivenBookstoreAPI_HostAddress = http://localhost:5006
+
+GET {{EventDrivenBookstoreAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
