@@ -12,7 +12,7 @@ The EventDrivenBookstoreAPI is a .NET Core API designed to manage a bookstore's 
 ## Technologies
 
 - **C#**: Programming language used for developing the API.
-- **.NET 6.0**: Framework for building the API.
+- **.NET**: Framework for building the API.
 - **ASP.NET Core**: Framework for building web APIs.
 - **Azure Cosmos DB**: NoSQL database for storing books and subscribers.
 
