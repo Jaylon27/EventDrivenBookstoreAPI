@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventDrivenBookstoreAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f10340be64085641914c9490383c271f96db87c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e38bf0bc7602d22b71f9c133232c596b6ada7ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventDrivenBookstoreAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventDrivenBookstoreAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

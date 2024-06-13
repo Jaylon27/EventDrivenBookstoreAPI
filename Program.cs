@@ -35,16 +35,14 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure middleware
-if (app.Environment.IsDevelopment())
+app.UseDeveloperExceptionPage();
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseDeveloperExceptionPage();
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "EventDrivenBookstoreAPI v1");
-        c.RoutePrefix = "swagger"; // Set the Swagger UI to be accessible at "/swagger"
-    });
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "EventDrivenBookstoreAPI v1");
+    c.RoutePrefix = "swagger"; // Set the Swagger UI to be accessible at "/swagger"
+});
+
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
