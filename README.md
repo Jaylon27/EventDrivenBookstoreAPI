@@ -1,7 +1,7 @@
 # EventDrivenBookstoreAPI
 
 ## Overview
-The EventDrivenBookstoreAPI is a .NET Core API designed to manage a bookstore's data. It provides endpoints for handling books and subscribers, leveraging Azure Cosmos DB for storage. This project also includes CI/CD automation with Azure DevOps, facilitating seamless deployment and updates. Additionally, the API is containerized with Docker, ensuring consistency and ease of deployment across different environments.
+The Event Driven Bookstore API is a .NET Core API designed to manage a bookstore's data. It provides endpoints for handling books and subscribers, leveraging Azure Cosmos DB for storage. This project also includes CI/CD automation with Azure DevOps, facilitating seamless deployment and updates. Additionally, the API is containerized with Docker, ensuring consistency and ease of deployment across different environments.
 
 ## Features
 - **Books Management**: Create and retrieve books.
