@@ -60,3 +60,7 @@ The Event Driven Bookstore API is a .NET Core API designed to manage a bookstore
     - `400 Bad Request` if creation fails.
     - `500 Internal Server Error` for server issues.
 
+  ### Documentation
+  [API Documentation](https://documenter.getpostman.com/view/31293366/2sA3XQiNHE)
+
+
