@@ -39,6 +39,18 @@ namespace EventDrivenBookstoreAPI.Implementation
         // Asynchronous method to create a new book
         public async Task<Book> CreateBookAsync(Book book)
         {
+            // Check if the book already exists
+            var existingBookQuery = _bookContainer.GetItemLinqQueryable<Book>()
+                .Where(b => b.Title == book.Title && b.Author == book.Author && b.Genre == book.Genre)
+                .Take(1)
+                .ToQueryDefinition();
+
+            var existingBooks = await _bookContainer.GetItemQueryIterator<Book>(existingBookQuery).ReadNextAsync();
+            if (existingBooks.Count > 0)
+            {
+                throw new InvalidOperationException($"'{book.Title}' by '{book.Author}' already exists in the bookstore.");
+            }
+
             // Assign a new GUID to the book's ID
             book.Id = Guid.NewGuid().ToString();
 
